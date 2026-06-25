@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odontología - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor-menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="universidades.html">Universidades</a></li>
+                <li><a href="especialidades.html">Especialidades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Formulario de Contacto Interactivo</h1>
+
+    <main class="contenido">
+        
+        <section class="tarjeta">
+            <h2>Consejos para una Buena Salud Bucal antes de escribirnos</h2>
+            <p>Si tienes dudas sobre la carrera o sobre tratamientos, te invitamos a mantener hábitos higiénicos correctos diariamente:</p>
+            <ol>
+                <li>Cepillarse detalladamente después de cada comida.</li>
+                <li>Usar hilo dental diariamente para eliminar restos entre los dientes.</li>
+                <li>Evitar por completo el exceso de azúcares y bebidas gaseosas.</li>
+                <li>Visitar de forma preventiva al odontólogo cada seis meses.</li>
+                <li>Cambiar el cepillo dental puntualmente cada tres meses.</li>
+            </ol>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Preguntas Frecuentes de Aspirantes (FAQ)</h2>
+            <p><strong>¿La carrera requiere habilidades manuales artísticas?</strong><br>
+            Sí, la odontología exige mucha destreza fina y paciencia. Gran parte del trabajo clínico implica esculpir restauraciones anatómicas milimétricas a mano alzada en resina o amalgama.</p>
+            
+            <p><strong>¿Cuánto tiempo dura el Servicio Social obligatorio?</strong><br>
+            De acuerdo con las leyes de salud de México, al finalizar los cuatro años de asignaturas se debe realizar un año completo de servicio social continuo en centros de salud rurales o urbanos marginados para la obtención del título profesional.</p>
+        </section>
+
+        <div class="contenedor-formulario">
+            <h2 style="text-align: center; font-size: 20px; color: #ff69b4; margin-bottom: 15px;">Resolución de Dudas Académicas</h2>
+            <p style="text-align: center; font-size: 14px; margin-bottom: 20px;">Escríbenos si tienes dudas sobre la carrera de Odontología, planes de estudio o requisitos.</p>
+            
+            <form id="formulario-contacto">
+                <div class="input-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+                </div>
+                
+                <div class="input-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+                </div>
+                
+                <div class="input-group">
+                    <label for="mensaje">Mensaje o Consulta:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe detalladamente tu duda..."></textarea>
+                </div>
+                
+                <button type="submit" id="btn-enviar" class="btn-enviar">Enviar Mensaje</button>
+            </form>
+            
+            <div id="mensaje-exito" class="oculto">
+                ¡Tu mensaje ha sido enviado correctamente! Gracias por contactarnos.
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 - Proyecto Informativo de Odontología.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
